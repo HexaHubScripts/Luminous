@@ -12,10 +12,12 @@ local PlaceId = game.PlaceId
 
 -- Beaks
 if PlaceId == 122678592501168 then
+    script_key=script_key;
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c1af715fb5cef92216c02bab058d7050.lua"))()
 end
 
 -- Grow a Garden
 if PlaceId == 126884695634066 then
+    script_key=script_key;
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bbec920857e855e25145e8e73278fdc0.lua"))()
 end
