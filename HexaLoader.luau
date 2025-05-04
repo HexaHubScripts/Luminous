@@ -21,3 +21,9 @@ if PlaceId == 126884695634066 then
     script_key=script_key;
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bbec920857e855e25145e8e73278fdc0.lua"))()
 end
+
+-- Brainrot Evolution
+if PlaceId == 111989938562194 then
+    script_key=script_key;
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d01c4774a11befb3205e3dc3c5c5e48a.lua"))()
+end
