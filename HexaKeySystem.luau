@@ -48,6 +48,18 @@ local Input = Tabs.Main:AddInput("Input", {
 })
 
 Tabs.Main:AddButton({
+    Title = "Copy Discord Link",
+    Callback = function()
+        setclipboard("https://discord.gg/rkAkG8q9Ak")
+        Fluent:Notify({
+            Title = "Copied Discord Link",
+            Content = "Successfully copied the key link to clipboard.",
+            Duration = 2
+        })
+    end
+})
+
+Tabs.Main:AddButton({
     Title = "Copy Key Link (LootLabs)",
     Callback = function()
         setclipboard("https://ads.luarmor.net/get_key?for=Hexa_Hub_Lootlabs-uekxYApFodwb")
