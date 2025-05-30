@@ -12,7 +12,7 @@ local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 local localPlayer = Players.LocalPlayer
 
-local script_key = script_key -- Preserving this variable in case it's needed
+local script_key = script_key
 
 local placeLoaders = {
     [122678592501168] = "c1af715fb5cef92216c02bab058d7050",
