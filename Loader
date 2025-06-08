@@ -29,7 +29,7 @@ if loaderId then
 else
     pcall(function()
         StarterGui:SetCore("SendNotification", {
-            Title = "Hexa Hub",
+            Title = "Luminous Hub",
             Text = "Unsupported game!",
             Duration = 5
         })
