@@ -2,10 +2,10 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
-InterfaceManager:SetFolder("Hexa Hub")
-SaveManager:SetFolder("Hexa Hub/KeySystem")
+InterfaceManager:SetFolder("Luminous Hub")
+SaveManager:SetFolder("Luminous Hub/KeySystem")
 
-local folderPath = "Hexa Hub/KeySystem"
+local folderPath = "Luminous Hub/KeySystem"
 local fileName = "Key.txt"
 local filePath = folderPath .. "/" .. fileName
 
@@ -42,7 +42,7 @@ local Input = Tabs.Main:AddInput("Input", {
     Callback = function(Value)
         writefile(filePath, Value)
         script_key=Value;
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HexaHubScripts/HEXAHUBLOADER/refs/heads/main/HexaLoader.luau", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HexaHubScripts/LUMINOUS/refs/heads/main/Loader", true))()
 		Fluent:Destroy()
     end
 })
