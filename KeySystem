@@ -42,7 +42,7 @@ local Input = Tabs.Main:AddInput("Input", {
     Callback = function(Value)
         writefile(filePath, Value)
         script_key=Value;
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HexaHubScripts/LUMINOUS/refs/heads/main/Loader", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HexaHubScripts/Luminous/refs/heads/main/Loader", true))()
 		Fluent:Destroy()
     end
 })
