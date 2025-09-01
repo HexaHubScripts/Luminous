@@ -6,7 +6,7 @@
  | |___| |__| | |  | |_| |_| |\  | |__| | |__| |____) |
  |______\____/|_|  |_|_____|_| \_|\____/ \____/|_____/ 
                                                 
-If you are reading this... How did you get here? ANYWAY U NOT GETTING A FREE SCRIPT!1! You're either perfect or you're not me.                
+If you are reading this... How did you get here? ANYWAY, no free scripts for you, greedy one.           
 ]]--
 
 local Players = game:GetService("Players")
@@ -28,10 +28,7 @@ if loaderId then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/" .. loaderId .. ".lua"))()
 else
     pcall(function()
-        StarterGui:SetCore("SendNotification", {
-            Title = "Luminous Hub",
-            Text = "Unsupported game!",
-            Duration = 5
-        })
+      setclipboard("https://discord.gg/BAzAJ4sve6")
+      localPlayer:Kick("Unsupported game! If it's meant to be supported, or you want to suggest a game, join the Discord with the invite copied to your clipboard.")
     end)
 end
