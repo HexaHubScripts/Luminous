@@ -13,8 +13,7 @@ local scriptids = {
     [7709344486] = true,
     [7436755782] = true,
     [6504986360] = true,
-    [7513130835] = true,
-    [7893515528] = true
+    [8316902627] = true
 }
 
 if scriptids[universeId] then
