@@ -18,7 +18,7 @@ local scriptids = {
 }
 
 if scriptids[universeId] then
-  loadstring("https://raw.githubusercontent.com/HexaHubScripts/Luminous/refs/heads/main/Scripts/" .. universeId .. ".lua")
+  loadstring("https://raw.githubusercontent.com/HexaHubScripts/Luminous/refs/heads/main/Scripts/" .. universeId .. ".luau")
 else
   setclipboard(https://discord.gg/BAzAJ4sve6)  
   lp:Kick("Unsupported game. Request features or games in the Discord copied to your clipboard!")
