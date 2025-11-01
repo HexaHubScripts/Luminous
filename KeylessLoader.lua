@@ -10,6 +10,15 @@ local universeId = json.universeId
 print(universeId)
 
 local scriptids = {
-
-
+    7709344486,
+    7436755782,
+    6504986360,
+    7513130835,
+    7893515528
 }
+
+if scriptids[universeId] then
+  loadstring()
+else
+  setclipboard(https://discord.gg/BAzAJ4sve6)  
+  lp:Kick("Unsupported game. Request features or games in the Discord copied to your clipboard!")
