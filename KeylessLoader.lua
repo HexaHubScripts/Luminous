@@ -10,15 +10,16 @@ local universeId = json.universeId
 print(universeId)
 
 local scriptids = {
-    7709344486,
-    7436755782,
-    6504986360,
-    7513130835,
-    7893515528
+    [7709344486] = true,
+    [7436755782] = true,
+    [6504986360] = true,
+    [7513130835] = true,
+    [7893515528] = true
 }
 
 if scriptids[universeId] then
-  loadstring()
+  loadstring("https://raw.githubusercontent.com/HexaHubScripts/Luminous/refs/heads/main/Scripts/" .. universeId .. ".lua")
 else
   setclipboard(https://discord.gg/BAzAJ4sve6)  
   lp:Kick("Unsupported game. Request features or games in the Discord copied to your clipboard!")
+end
